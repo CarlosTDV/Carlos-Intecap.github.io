@@ -43,7 +43,7 @@
   background-color: rgb(0, 110, 201);
   color: white;
 }
-#logo_intecap_51{
+.logo_intecap_51{
   width: 200px;
 }
 @media(max-width:1280px){
@@ -55,7 +55,7 @@
     display: flex;
     flex-direction: row;
   }
-  #logo_intecap_51{
+  .logo_intecap_51{
     width: 400px;
   }
   .container-form{
@@ -63,5 +63,10 @@
   }
   .container-backround{
     width: 90%;
+  }
+}
+@media(max-width:720px){
+  .logo_intecap_51{
+    width: 100%;
   }
 }

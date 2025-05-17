@@ -17,8 +17,8 @@
 .container-main button{
     width: 70%;
 }
-#logo_intecap_51{
-    width: 320px;
+.logo_intecap_51{
+    width: 100%;
 }
 @media(max-width:1280px){
     .container-main{
@@ -27,5 +27,8 @@
     }
     .container-ie{
         grid-template-columns: 100%;
+    }
+    .logo_intecap_51{
+        width: 40%;
     }
 }
